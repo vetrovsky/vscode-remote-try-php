@@ -18,7 +18,8 @@ function sayHello($name) {
 	<body>
 		<?php 
 		
-		sayHello('remote world');
+		sayHello($name = 'remote world');
+		$m = md5($name);
 			
 		phpinfo(); 
 			
